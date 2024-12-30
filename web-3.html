@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter in js</title>
+</head>
+<body>
+    <h1>Cart Quantity:</h1>
+    <button onclick="console.log(`Cart Quantity:${a}`)">Show Quantity</button>
+    <button onclick="a++;console.log(`Cart Quantity:${a}`)">Add To Cart</button>  
+    <!-- variablereassignment short cuts :->  a=a+1; a+=1; a++; +=2; -=2; *=2; /=2; ++; --; 
+         Naming Convertions:->  camelCase:- cartQuantity; PascalCase:- CartQuantity; kebab-case:-cart-quantity; snake_case:-cart_quantity; 
+         create the cart quantity feature; shortcuts for re-assigning a variable; Naming convertions and best practices; 3ways to create a variable:"let,var,const"    -->
+    <button onclick="a=a+2;console.log(`Cart Quantity:${a}`)">+2</button>
+    <button onclick="a=a+3;console.log(`Cart Quantity:${a}`)">+3</button>
+    <button onclick="a=0;console.log(`Cart Quantity:${a}`)">Reset Cart</button>
+    <script>
+        let a = 0;
+    </script>
+</body>
+</html>
